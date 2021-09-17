@@ -3,3 +3,77 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: black;
+}
+
+.header {
+    height: 90px; /*simula il contenuto*/
+    background-color: rgb(216, 149, 216);
+}
+
+.first-main {
+    height: 400px; /*simula il contenuto*/
+    background-color: rgb(216, 212, 149);
+}
+
+.pd-bottom1 {
+    padding-bottom: 20px;
+}
+
+.pd-bottom2 {
+    padding-bottom: 10px;
+}
+
+.secondmain-container {
+    background-color: dodgerblue;
+}
+
+.second-main {
+    background-color: royalblue;
+}
+
+.header-main {
+    height: 50px; /*simula il contenuto */
+    background-color: lightskyblue;
+}
+
+/* margin bottom */
+.mb{
+    margin-bottom: 20px;
+}
+
+.aside-right {
+    width: 24%;
+    background-color: lightskyblue;
+}
+
+.aside-left {
+    width: 24%;
+    background-color: lightskyblue;
+}
+
+.center {
+    width: 50%;
+    background-color: lightskyblue;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aside-left, .aside-right, .center {
+    float: left;
+}
+
+footer{
+height: 30px; /*simula il contenuto*/
+background-color:rebeccapurple;
+}

@@ -7,7 +7,7 @@
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: black;
+    background-color: white;
 }
 
 .header {
@@ -30,10 +30,6 @@
 
 .secondmain-container {
     background-color: dodgerblue;
-}
-
-.second-main {
-    background-color: royalblue;
 }
 
 .header-main {
@@ -74,6 +70,7 @@
 }
 
 footer{
-height: 30px; /*simula il contenuto*/
+height: 50px; /*simula il contenuto*/
 background-color:rebeccapurple;
+margin-top: 20px;
 }
